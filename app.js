@@ -348,7 +348,7 @@ function readOut(message){
   // different voices
   const allVoices = speechSynthesis.getVoices()
   speech.text = message;
-  speech.voice = allVoices[4]
+  speech.voice = allVoices[1]
   speech.volume = 1
   window.speechSynthesis.speak(speech);
   console.log("Speaking out");
